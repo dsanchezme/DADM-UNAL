@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/newGame"
+        android:title="@string/new_game"
+        android:icon="@drawable/ic_baseline_autorenew_24"
+        />
+    <item android:id="@+id/difficulty"
+        android:title="@string/difficulty"
+        android:icon="@drawable/ic_baseline_bar_chart_24"
+        />
+    <item android:id="@+id/about"
+        android:title="@string/about"
+        android:icon="@drawable/ic_baseline_info_24"
+        />
+    <item android:id="@+id/quit"
+          android:title="@string/quit"
+          android:icon="@drawable/ic_baseline_exit_to_app_24"
+    />
+</menu>

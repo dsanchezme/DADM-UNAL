@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/app_title"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <com.dadm.reto05.BoardView
+            android:id="@+id/board"
+            android:layout_width="300dp" android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/info_label"
+        android:textSize="24sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+            android:id="@+id/newGameMain"
+            android:layout_width="219dp"
+            android:layout_height="59dp"
+            android:background="#2196F3"
+            android:text="@string/new_game"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+
+</LinearLayout>
