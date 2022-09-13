@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:layout_weight="0.5"
+                  android:gravity="center_vertical">
+
+    <com.dadm.reto06.BoardView
+            android:id="@+id/board"
+            android:layout_width="270dp" android:layout_height="270dp"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:layout_weight="0.5"
+                  android:gravity="center_vertical">
+
+        <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/app_title"
+                android:textAlignment="center"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+
+        <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+            <TableRow android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+
+                <TextView
+                        android:text="@string/default_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/scorePlayer1"
+                        android:textAlignment="center"
+                        android:layout_weight="0.33"
+                        android:textStyle="bold" />
+
+                <TextView
+                        android:text="@string/default_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/numberTies"
+                        android:textAlignment="center"
+                        android:layout_weight="0.33"
+                        android:textStyle="bold" />
+                <TextView
+                        android:text="@string/default_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/scorePlayer2"
+                        android:textAlignment="center"
+                        android:layout_weight="0.33"
+                        android:textStyle="bold" />
+            </TableRow>
+            <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+
+                <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/x_img"
+                        android:id="@+id/imagePlayer1"
+                        android:layout_weight="0.33"/>
+                <TextView
+                        android:text="@string/tie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_weight="0.33"
+                        android:layout_marginHorizontal="20dp"/>
+                <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/o_img"
+                        android:id="@+id/imagePlayer2"
+                        android:layout_weight="0.33"/>
+            </TableRow>
+        </TableLayout>
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+        <TextView
+                android:id="@+id/information"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="@string/info_label"
+                android:textSize="24sp" />
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+        <Button
+                android:id="@+id/newGameMain"
+                android:layout_width="219dp"
+                android:layout_height="59dp"
+                android:background="#2196F3"
+                android:text="@string/new_game"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+    </LinearLayout>
+</LinearLayout>

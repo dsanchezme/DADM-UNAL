@@ -1,0 +1,13 @@
+
+F
+java:S1604ö"(Make this anonymous inner class a lambda(…ØôÚ8­¨Óë²0
+T	java:S106‹"9Replace this use of System.out or System.err by a logger.(ÃÒŒÓûÿÿÿÿ
+T	java:S106Œ"9Replace this use of System.out or System.err by a logger.(ıòãâşÿÿÿÿ
+[	java:S106"9Replace this use of System.out or System.err by a logger.(ÃÒŒÓûÿÿÿÿ8¹ªÓë²0
+[	java:S106«"9Replace this use of System.out or System.err by a logger.(Ş²Ç¦ÿÿÿÿÿ8¿ªÓë²0
+[	java:S106½"9Replace this use of System.out or System.err by a logger.(ŸİØûÿÿÿÿ8ÀªÓë²0
+[	java:S106Ö"9Replace this use of System.out or System.err by a logger.(ŸİØûÿÿÿÿ8ÃªÓë²0
+[	java:S106…"9Replace this use of System.out or System.err by a logger.(Èä«×ıÿÿÿÿ8ÊªÓë²0
+V	java:S106¤"9Replace this use of System.out or System.err by a logger.(àîşâ8ÎªÓë²0
+L
+java:S1068"1Remove this unused "mBoardButtons" private field.(Õô«¼ûÿÿÿÿ
