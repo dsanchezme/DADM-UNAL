@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto05/app/src/main/res/layout/about_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto05/app/src/main/res/layout/activity_tic_tac_toe.xml" value="0.264" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto05/app/src/main/res/menu/options_menu.xml" value="0.26875" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto06/app/src/main/res/layout-land/about_dialog.xml" value="0.17195767195767195" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto06/app/src/main/res/layout-land/main.xml" value="0.2" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto06/app/src/main/res/layout/about_dialog.xml" value="0.15677083333333333" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto06/app/src/main/res/layout/activity_tic_tac_toe.xml" value="0.264" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto06/app/src/main/res/layout/main.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto06/app/src/main/res/menu/options_menu.xml" value="0.536" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto07/app/src/main/res/layout-land/about_dialog.xml" value="0.21516754850088182" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto07/app/src/main/res/layout-land/activity_home.xml" value="0.21516754850088182" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto07/app/src/main/res/layout-land/activity_players.xml" value="0.2" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto07/app/src/main/res/layout/about_dialog.xml" value="0.15520833333333334" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto07/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto07/app/src/main/res/layout/activity_players.xml" value="0.1" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto07/app/src/main/res/layout/main.xml" value="0.264" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto07/app/src/main/res/layout/menu_start.xml" value="0.176" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto07/app/src/main/res/layout/player_info.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/diesanchez/Documents/DADM/Reto07/app/src/main/res/menu/options_menu.xml" value="0.15520833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

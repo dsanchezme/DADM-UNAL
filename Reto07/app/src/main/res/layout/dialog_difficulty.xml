@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose a difficulty level:"
+        android:textSize="20dp"
+        android:background="@color/cardview_dark_background"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        />
+
+    <RadioGroup
+        android:id="@+id/difficultyGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="5dp">
+
+        <RadioButton
+            android:id="@+id/easyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Easy"
+            android:drawableRight="@drawable/easy_icon"
+            android:buttonTint="@color/material_dynamic_primary0"
+            />
+
+        <RadioButton
+            android:id="@+id/harderButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harder"
+            android:drawableRight="@drawable/harder_icon"
+            android:buttonTint="@color/material_dynamic_primary0" />
+        <RadioButton
+            android:id="@+id/expertButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expert"
+            android:drawableRight="@drawable/ic_baseline_bar_chart_24"
+            android:buttonTint="@color/material_dynamic_primary0" />
+    </RadioGroup>
+</LinearLayout>

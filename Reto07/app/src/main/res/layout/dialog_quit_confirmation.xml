@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want to quit?"
+        android:textSize="15sp"
+        android:background="@color/cardview_dark_background"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="60dp"
+            android:text="Yes"
+            android:backgroundTint="#83889A"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="20dp"/>
+
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="20dp"
+            android:backgroundTint="#2196F3"
+            android:text="No"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

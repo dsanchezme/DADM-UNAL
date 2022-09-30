@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Reto 7</string>
+    <string name="app_title">Tic Tac Toe</string>
+    <string name="app_author">by Diego Sanchez</string>
+    <string name="course">Desarrollo de aplicaciones para dispositivos móviles</string>
+    <string name="year">UNAL 2022–2</string>
+    <string name="difficulty_choose">Choose a difficulty level</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_harder">Harder</string>
+    <string name="difficulty_expert">Expert</string>
+    <string name="quit_question">Are you sure you want to quit?</string>
+    <string name="reset_question">Are you sure you want to reset the scores?</string>
+    <string name="give_up_question">Are you sure you want to give up?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="info_label">Info label</string>
+    <string name="new_game">New Game</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="about">About</string>
+    <string name="quit">Quit</string>
+    <string name="player1">Human</string>
+    <string name="player2">Android</string>
+    <string name="tie">Ties</string>
+    <string name="default_number">0</string>
+    <string name="reset_scores">Reset scores</string>
+    <string name="play_online">Play online</string>
+    <string name="alt_app_logo">TicTacToe logo</string>
+    <string name="online">Online</string>
+    <string name="online_players_title">Online players:</string>
+    <string name="your_name_online">Your name online</string>
+    <string name="connectButton">Connect</string>
+    <string name="disconnectButton">Disconnect</string>
+    <string name="invite">Invite</string>
+    <string name="empty_list">No users online :(</string>
+</resources>
