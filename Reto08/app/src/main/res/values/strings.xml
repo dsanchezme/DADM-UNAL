@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Reto 08</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="company_name">Company name</string>
+    <string name="company_classification">Company classification</string>
+
+    <string name="new_company">Agregar empresa</string>
+    <string name="edit_company">Editar empresa</string>
+
+    <string name="name">Nombre</string>
+    <string name="webPage">Pagina web</string>
+    <string name="phoneNumber">Telefono</string>
+    <string name="email">Email</string>
+    <string name="productsServices">Productos/ Servicios</string>
+    <string name="classification">Clasificación</string>
+
+    <string name="name_error">Ingresa el nombre de la empresa</string>
+    <string name="classification_error">Selecciona una clasificacion para la empresa</string>
+
+    <string name="main_title">Base de Datos</string>
+    <string name="main_subtitle">Empresas</string>
+
+</resources>
